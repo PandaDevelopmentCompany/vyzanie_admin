@@ -12235,3 +12235,21 @@ pre .code {
 * {
   scroll-behavior: smooth !important;
 }
+
+
+
+.map_style {
+  width: 100% !important;
+  z-index: 100000000000000 !important;
+}
+
+@media screen and (max-width: 768px) {
+  .map_style {
+    width: 100% !important;
+    height: 600px !important;
+  }
+}
+
+ul#sheet-menu {
+  display: none !important;
+}
